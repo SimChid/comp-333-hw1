@@ -1,3 +1,50 @@
 /*To be filled*/
 
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+SC&display=swap");
+
+
+.navbar{
+    display: flex;
+}
+/* 
+    For your custom navbar, you can specify the unorderd list style.
+*/
+.navbar ul {
+    /* 
+          Remove bullet points.
+    */
+    list-style: none;
+    width: 5000px;
+    margin: 0 auto;
+    /* No padding*/
+    padding: 30px;
+    /* 
+          For navbars use background color that stands out.
+    */
+    background-color: rgb(255, 255, 0);
+    text-align: center;
+  }
+  
+  /*  
+      Style individual list items.
+  */
+  .navbar li {
+    width: 200 px;
+    /* 
+          Show the navbar elements next to each other instead of on top of each 
+          other. 
+    */
+    display: inline-block;
+    line-height: 20px;
+  }
+  
+  /* 
+      Style links in navbar.
+  */
+  .navbar a {
+    color: rebeccapurple;
+    text-decoration: none;
+    font-size: 48px;
+    line-height: 50px;
+    padding: 30px;
+  }
