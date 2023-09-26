@@ -48,3 +48,27 @@
     line-height: 50px;
     padding: 30px;
   }
+
+  .hook{
+    margin-top: 72px;
+    padding: 30px;
+    text-align: center;
+  }
+  
+  .hook bd {
+    color: rebeccapurple;
+    text-decoration: none;
+    font-size: 64px;
+  }
+
+  .hook sml {
+    color: grey;
+    font-size: 24;
+  }
+
+  #section{
+    color: rebeccapurple;
+    font-size: 48;
+    text-align: center;
+    margin-top: 36px;
+  }
