@@ -49,40 +49,55 @@
     padding: 30px;
   }
 
-  .hook{
-    margin-top: 72px;
-    margin-bottom: 36px;
-    padding: 30px;
-    text-align: center;
-  }
+.hook{
+  margin-top: 72px;
+  margin-bottom: 36px;
+  padding: 30px;
+  text-align: center;
+}
   
-  .hook bd {
-    color: rebeccapurple;
-    text-decoration: none;
-    font-size: 64px;
-  }
+.hook bd {
+  color: rebeccapurple;
+  text-decoration: none;
+  font-size: 64px;
+}
 
-  .hook sml {
-    color: grey;
-    font-size: 24;
-  }
+.hook sml {
+  color: grey;
+  font-size: 24;
+}
 
-  .hook b {
-    color: rebeccapurple;
-    background: yellow;
-    font-size: 36;
-    border-radius: 25px;
-    width: 250px;
-    height: 75px; 
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 25px;
-  }
+.hook b {
+  color: rebeccapurple;
+  background: yellow;
+  font-size: 36;
+  border-radius: 25px;
+  width: 250px;
+  height: 75px; 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 25px;
+}
 
-  #section{
-    color: rebeccapurple;
-    font-size: 48;
-    text-align: center;
-    margin-top: 36px;
-  }
+#section{
+  color: rebeccapurple;
+  font-size: 48;
+  text-align: center;
+  margin-top: 36px;
+}
+
+iframe{
+  width: 75%;
+  height: 50%;
+  display: block;
+  margin: 36px auto;
+}
+
+#footer{
+  background: rgb(117, 117, 117);
+  color: white;
+  text-align: center;
+  font-size: 24;
+  padding: 48px;
+}
