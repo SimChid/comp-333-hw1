@@ -3,13 +3,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+SC&display=swap");
 
 
-.navbar{
+#navbar{
     display: flex;
 }
 /* 
     For your custom navbar, you can specify the unorderd list style.
 */
-.navbar ul {
+#navbar ul {
     /* 
           Remove bullet points.
     */
@@ -28,7 +28,7 @@
   /*  
       Style individual list items.
   */
-  .navbar li {
+  #navbar li {
     width: 200 px;
     /* 
           Show the navbar elements next to each other instead of on top of each 
@@ -41,10 +41,10 @@
   /* 
       Style links in navbar.
   */
-  .navbar a {
+  #navbar a {
     color: rebeccapurple;
     text-decoration: none;
-    font-size: 48px;
+    font-size: 45px;
     line-height: 50px;
     padding: 30px;
   }
@@ -80,7 +80,7 @@
   padding-top: 25px;
 }
 
-#section{
+.section{
   color: rebeccapurple;
   font-size: 48;
   text-align: center;
