@@ -58,7 +58,6 @@
   
 .hook bd {
   color: rebeccapurple;
-  text-decoration: none;
   font-size: 64px;
 }
 
@@ -67,8 +66,9 @@
   font-size: 24;
 }
 
-.hook b {
+.hook a {
   color: rebeccapurple;
+  text-decoration: none;
   background: yellow;
   font-size: 36;
   border-radius: 25px;
