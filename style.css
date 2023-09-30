@@ -89,9 +89,30 @@
 
 iframe{
   width: 75%;
-  height: 50%;
+  height: 25%;
   display: block;
   margin: 36px auto;
+}
+
+/*
+  Styling for faq.html
+*/
+
+.qna{
+  text-align: center;
+  background-color: rgb(235, 233, 233);
+}
+
+.qna qu{
+  color: rebeccapurple;
+  font-size: 36px;
+  padding: 36px;
+}
+
+.qna p{
+  color: grey;
+  font-size: 24px;
+  padding-bottom: 48px;
 }
 
 #footer{
