@@ -6,26 +6,18 @@
         <link rel="stylesheet" href="style.css" />
     </head>
     <body>
-        <!---
-            What I want to do right now is create a header. That header will have the title for the
-            webpage (StarTunes) on the left hand side, and then the rest of the elements as a right justified
-            flex table. In order from left to right we will have:
-            * Explore
-            * Charts
-            * Pricing
-            * Sign in/up
-
-            I think that I might want a flex box with two elements, and the element on the right hand side will
-            be a flex box with everything except for the title. To start I'll create the two element flex box.
-        -->
         <div id="navbar">
-            <a href="index.html">StarTunes</a>
-            <ul>
-              <li><a href="#Features">Explore</a></li>
-              <li><a href="#Pricing">Pricing</a></li>
-              <li><a href="#Future">FUTURE</a></li>
-              <li><a href="./signUpIn.html">Sign In</a></li>
-              <li><a href="./signUpIn.html">Sign Up</a></li>
+            <a href="index.html">StarTunes</a> <!-- Left Hand of Navbar-->
+            <ul> 
+                <!-- 
+                Right Hand of Navbar (The part that actually flexes)
+                It provides a quick-reference link to each of the subheadings on our page
+                -->
+                <li><a href="#Features">Explore</a></li>
+                <li><a href="#Pricing">Pricing</a></li>
+                <li><a href="#Future">FUTURE</a></li>
+                <li><a href="./signUpIn.html">Sign In</a></li>
+                <li><a href="./signUpIn.html">Sign Up</a></li>
             </ul>
         </div>
         <!--
@@ -45,7 +37,7 @@
         <div class = "section", id = "Features">
             Features
         </div>
-        <!--add pictures as background to these points. Use flexbox.-->
+        <!--All of the exceptional tools made available by our website-->
         <div class = "row">
             <div class = "col">RATE YOUR FAVORITE SONGS</div>
             <div class = "col">LEAVE A REVIEW</div>
@@ -75,6 +67,7 @@
             Future Plans
         </div>
         <div id = "Future">
+            <!--How we're taking our website to the next level-->
             <ul>
                 <li>We plan on adding replies to reviews</li>
                 <li>We plan to include personal messages between profiles</li>
