@@ -2,7 +2,13 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+SC&display=swap");
 
-
+a {
+  color: rebeccapurple;
+  text-decoration: none;
+  font-size: 45px;
+  line-height: 50px;
+  padding: 30px;
+}
 #navbar{
     display: flex;
 }
