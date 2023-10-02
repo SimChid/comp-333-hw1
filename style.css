@@ -140,3 +140,8 @@ iframe{
 #sign-In sml {
   font-size: 12;
 }
+
+img {
+  width: 23%;
+  height: auto
+}
