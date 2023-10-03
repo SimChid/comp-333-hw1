@@ -3,11 +3,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+SC&display=swap");
 
 a {
-  color: rebeccapurple;
-  text-decoration: none;
-  font-size: 45px;
-  line-height: 50px;
-  padding: 30px;
+    color: rebeccapurple;
+    text-decoration: none;
+    font-size: 45px;
+    line-height: 50px;
+    padding: 30px;
+  }
+h2{
+    padding-top: 14px;
+  font-size: 42px;
 }
 #navbar{
     display: flex;
@@ -184,6 +188,7 @@ iframe{
 #sign-Up sml {
   font-size: 12;
 }
+
 
 #sign-In{
   color: olivedrab;
