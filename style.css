@@ -61,8 +61,8 @@ a {
 }
 
 .hook sml {
-  color: red;
-  font-size: 18px;
+  color: rgb(0, 0, 255);
+  font-size: 28px;
 }
 
 .hook a {
