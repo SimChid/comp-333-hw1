@@ -5,7 +5,7 @@
 a {
   color: rebeccapurple;
   text-decoration: none;
-  font-size: 45px;
+  font-size: 32px;
   line-height: 50px;
   padding: 30px;
 }
@@ -16,17 +16,10 @@ a {
     For your custom navbar, you can specify the unorderd list style.
 */
 #navbar ul {
-    /* 
-          Remove bullet points.
-    */
     list-style: none;
     width: 5000px;
     margin: 0 auto;
-    /* No padding*/
     padding: 30px;
-    /* 
-          For navbars use background color that stands out.
-    */
     background-color: rgb(255, 255, 0);
     text-align: center;
   }
@@ -76,7 +69,7 @@ a {
   color: rebeccapurple;
   text-decoration: none;
   background: yellow;
-  font-size: 36;
+  font-size: 64px;
   border-radius: 25px;
   width: 250px;
   height: 75px; 
@@ -89,7 +82,7 @@ a {
 /*For section headers*/
 .section{
   color: rebeccapurple;
-  font-size: 48;
+  font-size: 48px;
   text-align: center;
   margin-top: 48px;
 }
@@ -114,14 +107,24 @@ a {
 .col ul{
   background: yellow;
   width: 275px;
-  height: 250px;
+  height: 150px;
   border-radius: 25px;
+}
+.col2 ul{
+  background: yellow;
+  width: 450px;
+  height: 150px;
+  border-radius: 25px;
+  font-size: 24px;
+  color: rebeccapurple;
+  padding-top: 24px;
+  margin: 0 auto;
 }
 
 .col h2{
-  text-align: left;
+  text-align: center;
   padding-top: 14px;
-  font-size: 30;
+  font-size: 32px;
 }
 
 .col li{
